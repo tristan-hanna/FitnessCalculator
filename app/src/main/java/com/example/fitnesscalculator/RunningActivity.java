@@ -42,7 +42,7 @@ public class RunningActivity extends AppCompatActivity {
 
         //Creates exercise objects
         Exercises e1 = new Exercises("150m Sprint", 550);
-        Exercises e2 = new Exercises("100m Sprint", 5500);
+        Exercises e2 = new Exercises("100m Sprint", 366);
         Exercises e3 = new Exercises("General Jogging", 134);
         Exercises e4 = new Exercises("Jogging in Place", 156);
         Exercises e5 = new Exercises("Running at 5 mph", 156);
