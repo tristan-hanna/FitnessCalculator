@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/view_lost_cals"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#03A9F4"
+        android:onClick="viewCalories"
+        android:text="View Calories Burned"
+        android:textColor="#FFEBEE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.713" />
+
+    <Button
+        android:id="@+id/view_exercises"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#03A9F4"
+        android:onClick="viewExercises"
+        android:text="Add Exercises to Workouts"
+        android:textColor="#FFEBEE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.617" />
+
+    <Button
+        android:id="@+id/weight"
+        android:layout_width="376dp"
+        android:layout_height="35dp"
+        android:background="#03A9F4"
+        android:onClick="gotoweightworkout"
+        android:text="CALISTHENICS WORKOUT"
+        android:textColor="#FFEBEE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.287" />
+
+    <Button
+        android:id="@+id/run"
+        android:layout_width="376dp"
+        android:layout_height="35dp"
+        android:background="#03A9F4"
+        android:onClick="gotorunningworkout"
+        android:text="SPRINTING/RUNNING WORKOUT"
+        android:textColor="#FFEBEE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.195" />
+
+    <Button
+        android:id="@+id/swimming"
+        android:layout_width="376dp"
+        android:layout_height="35dp"
+        android:background="#03A9F4"
+        android:onClick="gotoswimmingworkout"
+        android:text="SWIMMING WORKOUT"
+        android:textColor="#FFEBEE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.377" />
+
+    <Button
+        android:id="@+id/walking"
+        android:layout_width="376dp"
+        android:layout_height="35dp"
+        android:background="#03A9F4"
+        android:onClick="gotowalkingworkout"
+        android:text="WALKING WORKOUT"
+        android:textColor="#FFEBEE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.469" />
+
+    <TextView
+        android:id="@+id/GreetingText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Hello, User!"
+        android:textColor="#03A9F4"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.032" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

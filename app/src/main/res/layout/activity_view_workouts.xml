@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".viewWorkoutsActivity">
+
+    <Button
+        android:id="@+id/runWorkout"
+        android:layout_width="376dp"
+        android:layout_height="35dp"
+        android:background="#03A9F4"
+        android:onClick="gotorunning"
+        android:text="SPRINTING/RUNNING EXERCISES"
+        android:textColor="#FFEBEE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.195" />
+
+    <Button
+        android:id="@+id/weightWorkout"
+        android:layout_width="376dp"
+        android:layout_height="35dp"
+        android:background="#03A9F4"
+        android:onClick="gotoweight"
+        android:text="CALISTHENICS EXERCISES"
+        android:textColor="#FFEBEE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.287" />
+
+    <Button
+        android:id="@+id/swimmingWorkout"
+        android:layout_width="376dp"
+        android:layout_height="35dp"
+        android:background="#03A9F4"
+        android:onClick="gotoswimming"
+        android:text="SWIMMING EXERCISES"
+        android:textColor="#FFEBEE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.377" />
+
+    <Button
+        android:id="@+id/walkingWorkout"
+        android:layout_width="376dp"
+        android:layout_height="35dp"
+        android:background="#03A9F4"
+        android:onClick="gotowalking"
+        android:text="WALKING EXERCISES"
+        android:textColor="#FFEBEE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.469" />
+</androidx.constraintlayout.widget.ConstraintLayout>
