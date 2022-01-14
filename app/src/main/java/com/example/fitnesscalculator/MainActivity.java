@@ -2,20 +2,11 @@ package com.example.fitnesscalculator;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.preference.PreferenceManager;
-import android.util.Log;
 import android.view.View;
-import android.widget.TextView;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-
-    public static final String MY_SHARED_PREF_FILE = "my_shared_pref_file";
-    public static final String CALORIE_COUNT = "caloriecount_key";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
